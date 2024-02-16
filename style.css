@@ -1,0 +1,83 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family:Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  /* boz sizing helps to donot change the size the box if you add padding margin it
+  donot change...
+  https://www.youtube.com/watch?v=lLV5OW_YH-Q&ab_channel=HindiTechTutorials
+  */
+body{
+  background-color: rgb(29, 179, 139);
+}
+.app{
+  background-color: aliceblue;
+  width: 90%;
+  max-width: 600px;
+  margin: 100px auto 20px;
+  /* margin: top leftright bottom */
+  border-radius: 20px;
+  padding: 30px;
+
+} 
+.app h1{
+font-size: 25px;
+color: rgb(34, 32, 33);
+font-weight: 600;
+border-bottom: 1.5px solid #333;
+/* bottom ma 1.5 px ko solid color vayeko line garya vaneko */
+padding-bottom: 20px;
+/* bottom bata 20 px gar haii vaneko */
+}
+.quiz {
+  padding: 20px 0;
+}
+.quiz h2 {
+  font-size: 18px;
+  color:rgb(21, 26, 2);
+
+} 
+.btn{
+ background: #fff;
+ color: #222;
+ font-weight: 500;
+ width: 100%;
+ border: 1px solid #222;
+ padding: 20px; 
+ margin: 10px;
+ text-align: left;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s;
+
+}
+.btn:hover.btn:not([disabled]){
+  background: #222;
+  color: #fff;
+}
+.btn:disabled{
+cursor: no-drop;
+}
+#next-btn{ 
+  /* we use # in id */
+  background: #001e4d;
+  color: #fff;
+  font-weight: 500;
+  width: 150px;
+  font-size: 13px;
+  border: 0;
+  padding: 10px;
+  margin: 20px auto 0;
+  border-radius: 4px;
+  cursor: pointer;
+  display: none;
+
+}
+.correct {
+  background: #9aeabc;
+}
+.incorrect 
+{
+  background: #ff9393;
+}
+}
